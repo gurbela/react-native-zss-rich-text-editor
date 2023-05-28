@@ -32,6 +32,8 @@ export default class RichTextEditor extends Component {
     footerHeight: PropTypes.number,
     contentInset: PropTypes.object,
     autoFocusLinkModal: PropTypes.bool,
+    onFocus: PropTypes.func,
+    onBlur: PropTypes.func,
   };
 
   static defaultProps = {
@@ -760,6 +762,7 @@ export default class RichTextEditor extends Component {
         this.contentFocusHandler && this.contentFocusHandler();
       },
     );
+    this.props.onFocus()
   }
 
   _contentBlurHandler() {
@@ -771,6 +774,7 @@ export default class RichTextEditor extends Component {
         this.contentBlurHandler && this.contentBlurHandler();
       },
     );
+    this.props.onBlur()
   }
 
   setTitleFocusHandler(callbackHandler) {
