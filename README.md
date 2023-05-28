@@ -4,7 +4,7 @@
 
 ## How to use it
 
--   `$ yarn add https://github.com/trilogy-group/react-native-zss-rich-text-editor`
+-   `$ yarn add https://github.com/gurbela/react-native-zss-rich-text-editor`
 -   `$ yarn add react-native-webview`
 -   `$ cd ios && pod install`
 
