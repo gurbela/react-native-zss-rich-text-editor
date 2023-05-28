@@ -19,9 +19,9 @@ A fully functional Rich Text Editor for both Android and iOS, based off the [ZSS
 ## Installation
 
 ```
-npm i --save https://github.com/trilogy-group/react-native-zss-rich-text-editor
+npm i --save https://github.com/gurbela/react-native-zss-rich-text-editor
 or
-yarn add https://github.com/trilogy-group/react-native-zss-rich-text-editor
+yarn add https://github.com/gurbela/react-native-zss-rich-text-editor
 cd ios && pod install
 ```
 
