@@ -276,6 +276,8 @@ export default class RichTextEditor extends Component {
                 }
                 value={this.state.linkTitle}
                 autoFocus={this.props.autoFocusLinkModal}
+                autoCapitalize="none"
+                autoCorrect={false}
               />
             </View>
             <Text style={[styles.inputTitle, { marginTop: 10 }]}>
