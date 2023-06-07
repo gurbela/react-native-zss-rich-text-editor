@@ -733,6 +733,10 @@ export default class RichTextEditor extends Component {
     });
   }
 
+  setContentFocusHandler = () => {
+      this.webView.injectJavaScript('document.getElementById("content").focus();');
+  }
+
   _titleFocusHandler() {
     this.setState(
       {
